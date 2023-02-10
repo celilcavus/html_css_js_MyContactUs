@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  padding-top: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+img {
+  width: 83%;
+  margin-left: 5rem;
+}
+
+span {
+  margin-right: 20px;
+  color: #3330f7;
+}
+
+.contact-title {
+  margin-left: 35px;
+  margin-right: 50px;
+}
+
+.contact {
+  width: 100%;
+  height: 40%;
+  padding: 20px 40px 40px 40px;
+  text-align: justify;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.contactus ul li {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.contactus li h4 {
+  display: flex;
+}
+.contactus li ul li .active-link {
+  color: #f1c50e;
+  border-bottom: 1px solid #3330f7;
+}
+.contactus li ul li .active-link:hover {
+  border-bottom: 1px solid #f1c50e;
+}
+.contactus li ul li .pasive-link {
+  color: black;
+}
+.contactus li ul li:first-child {
+  color: #3330f7;
+}
+.contactus li ul li:last-child {
+  margin-bottom: 30px;
+}
+.contactus ul li h4 span {
+  margin-right: 100px;
+}
+
+.links {
+  display: flex;
+}
+.links li {
+  margin-right: 30px;
+}
+.links li a i {
+  font-size: 1.5rem;
+  color: #3330f7;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: #333333;
+  padding: 30px;
+}
+.footer center p {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
